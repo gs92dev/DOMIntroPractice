@@ -1,4 +1,4 @@
-import quotes from "./dummyAPI.js";
+import quotes from "./dummyAPI";
 
 // you can access individual quotes from the quotes array like this:
 console.log(quotes[0].text); // outputs the text of the quote
