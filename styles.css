@@ -21,6 +21,9 @@ h1{
 #display{
     font-size: 2rem;
 }
+p{
+    font-size: 2rem;
+}
 #button{
     margin-top: 1rem;
     background-color: #C0DBEA;
