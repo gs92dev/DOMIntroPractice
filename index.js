@@ -18,7 +18,10 @@ const button = document.getElementById('button');
 function generate() {
     //Variable to geneterate a random index
     const randomQuote = Math.floor(Math.random() * (quotes.length+1));
-    displayQuotes.textContent = `"${quotes[randomQuote].text} " ${quotes[randomQuote].author} `; 
+    displayQuotes.textContent = `"` + quotes[randomQuote].text + `"`  + "\n" + quotes[randomQuote].author; 
 }
 
 button.addEventListener('click',generate)
+
+
+
