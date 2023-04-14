@@ -17,7 +17,7 @@ const displayQuotes = document.getElementById('display');
 const button = document.getElementById('button');
 function generate() {
     //Variable to geneterate a random index
-    const randomQuote = Math.floor(Math.random() * (quotes.length+1));
+    let randomQuote = Math.floor(Math.random() * (quotes.length+1));
     displayQuotes.textContent = `"` + quotes[randomQuote].text + `"`  + "\n" + quotes[randomQuote].author; 
 }
 
